@@ -1,25 +1,21 @@
-## Derek Prescott
+I am Derek Prescott
 
-**MLOps Infrastructure Architect**
+**MLOps Platform Architect**
 
-### System Design: ML Platform v2
+Designed and built complete ML platform infrastructure supporting production machine learning operations at scale.
 
-**Components Built:**
-```
-User Submission → Data Validation → Feature Engineering
-    ↓
-Model Registry ← Training Pipeline ← Hyperparameter Optimization
-    ↓
-A/B Testing Framework → Model Serving (Kubernetes)
-    ↓
-Monitoring & Alerting → Retraining Triggers
-```
-
-**Scale Metrics:**
+**Platform Capabilities:**
 - 50+ concurrent model instances
 - GPU cluster orchestration (200+ GPUs)
-- Real-time inference SLA: p99 < 100ms
-- Automated model deployment every 6 hours
-- Data pipeline: 2TB daily processing
+- Real-time inference (p99 < 100ms)
+- Automated deployment every 6 hours
+- 2TB daily data processing
 
-**Recent Work:** Implementing auto-scaling based on model inference demand and data drift detection to trigger retraining before performance degrades.
+**Architecture Components:**
+- Automated feature engineering and validation
+- Model registry and versioning
+- A/B testing framework for experiments
+- Comprehensive monitoring and alerting
+- Automatic retraining triggers
+
+Current focus: Auto-scaling based on inference demand, data drift detection, performance optimization.
