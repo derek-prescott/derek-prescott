@@ -1,19 +1,25 @@
-# I am Derek Prescott
+## Derek Prescott
 
-**Senior DevOps Engineer**
+**MLOps Infrastructure Architect**
 
-## Focus Areas
-Cloud Infrastructure, Kubernetes, SRE, MLOps Infrastructure, ML Model Deployment, Continuous Training
+### System Design: ML Platform v2
 
-## ML Experience
-- Architected MLOps platforms enabling automated model training, testing, and deployment pipelines
-- Implemented Kubernetes-based ML workload orchestration handling GPU resource management
-- Built monitoring and alerting systems for model performance degradation and data drift detection
-- Designed CI/CD pipelines for ML models with automated testing and canary deployments
+**Components Built:**
+```
+User Submission → Data Validation → Feature Engineering
+    ↓
+Model Registry ← Training Pipeline ← Hyperparameter Optimization
+    ↓
+A/B Testing Framework → Model Serving (Kubernetes)
+    ↓
+Monitoring & Alerting → Retraining Triggers
+```
 
-## Connect
-- GitHub: [@derek-prescott](https://github.com/derek-prescott)  
-- LinkedIn: [Profile](https://linkedin.com/in/derek-prescott)
+**Scale Metrics:**
+- 50+ concurrent model instances
+- GPU cluster orchestration (200+ GPUs)
+- Real-time inference SLA: p99 < 100ms
+- Automated model deployment every 6 hours
+- Data pipeline: 2TB daily processing
 
----
-*Building solutions that matter.*
+**Recent Work:** Implementing auto-scaling based on model inference demand and data drift detection to trigger retraining before performance degrades.
