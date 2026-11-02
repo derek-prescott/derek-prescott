@@ -1,21 +1,25 @@
-I am Derek Prescott
+Derek Prescott | MLOps Platform Architect
 
-**MLOps Platform Architect**
+### Platform Overview
 
-Designed and built complete ML platform infrastructure supporting production machine learning operations at scale.
+Comprehensive ML infrastructure supporting production machine learning at enterprise scale.
 
-**Platform Capabilities:**
-- 50+ concurrent model instances
-- GPU cluster orchestration (200+ GPUs)
-- Real-time inference (p99 < 100ms)
-- Automated deployment every 6 hours
+**Capabilities:**
+- 50+ concurrent models
+- 200+ GPU orchestration
+- p99 latency < 100ms
+- Automated deployment pipeline
 - 2TB daily data processing
 
-**Architecture Components:**
-- Automated feature engineering and validation
-- Model registry and versioning
-- A/B testing framework for experiments
-- Comprehensive monitoring and alerting
-- Automatic retraining triggers
+**System Design:**
+```
+Data → Validation → Features → Registry
+  ↓
+Training Cluster ← Experimentation
+  ↓
+Model Serving → Monitoring → Retraining
+```
 
-Current focus: Auto-scaling based on inference demand, data drift detection, performance optimization.
+**Focus:** Auto-scaling, data drift detection, performance optimization
+
+**Tech Stack:** Kubernetes, Airflow, Prometheus, MLflow
