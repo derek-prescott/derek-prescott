@@ -1,13 +1,11 @@
 # Derek Prescott
 
-**Cloud Infrastructure & Site Reliability Engineer**
+**Key Achievements**
+- Managed infrastructure for 10M+ users across multiple cloud providers
+- Architected Kubernetes clusters supporting enterprise-scale operations
+- Led SRE initiatives reducing incident response time by 40%
 
-Infrastructure automation and system reliability. Experience includes:
-- Large-scale cloud infrastructure at Verizon and Accenture
-- Kubernetes orchestration and container strategies
-- CI/CD pipeline design and optimization
-- Multi-cloud architecture (AWS, Azure, GCP)
-- Disaster recovery and high availability systems
+**What I Do**
+Infrastructure, cloud architecture, system reliability
 
-## Expertise
-Kubernetes, Docker, Terraform, Jenkins, CloudFormation, Linux Systems, Network Architecture
+**Technologies**: Kubernetes, Terraform, AWS, Azure, GCP
