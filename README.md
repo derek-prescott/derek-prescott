@@ -1,21 +1,13 @@
-# I am Derek Prescott
+# Derek Prescott
 
-## About
-Passionate about building scalable, maintainable systems. Specializing in Enterprise Infrastructure.
+**Cloud Infrastructure & Site Reliability Engineer**
 
-## Technical Expertise
-```
-Cloud Infrastructure, Kubernetes, SRE, DevOps, Cloud Architecture
-```
+Infrastructure automation and system reliability. Experience includes:
+- Large-scale cloud infrastructure at Verizon and Accenture
+- Kubernetes orchestration and container strategies
+- CI/CD pipeline design and optimization
+- Multi-cloud architecture (AWS, Azure, GCP)
+- Disaster recovery and high availability systems
 
-## What I Bring
-- Production-grade code quality
-- Scalable system architecture  
-- Mentorship & knowledge sharing
-- Continuous learning mindset
-
-## Let's Work Together
-📧 Reach out via [GitHub](https://github.com/derek-prescott) or [LinkedIn](https://linkedin.com/in/derek-prescott)
-
----
-*Engineering excellence, one commit at a time.*
+## Expertise
+Kubernetes, Docker, Terraform, Jenkins, CloudFormation, Linux Systems, Network Architecture
